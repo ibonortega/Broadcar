@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/menu_settings" android:summary="Select wich alerts will be shown in the map and enable or desable system conections.">
+    <PreferenceCategory
+        android:title="@string/Alerts" 
+        android:key="@+id/alerts">
+        
+        <SwitchPreference android:summaryOff="@string/heavytrafficdisabled" android:title="@string/heavytraffic" android:key="heavy_traffic_pref" android:summaryOn="@string/heavytrafficenabled"/>
+        <SwitchPreference android:key="low_visibility_pref" android:title="@string/lowvisibility" android:summaryOn="@string/lowvisibilityenabled" android:summaryOff="@string/lowbilsibilitydisabled"/>
+        <SwitchPreference android:key="road_state_pref" android:title="@string/roadstate" android:summaryOn="@string/roadstateenabled" android:summaryOff="@string/roadstatedisabled"/>
+        <SwitchPreference android:key="crashes_pref" android:title="@string/crashes" android:summaryOn="@string/crashesenabled" android:summaryOff="@string/crashesdisabled"/>
+        <SwitchPreference android:summaryOff="@string/worksdisabled" android:title="@string/works" android:key="work_pref" android:summaryOn="@string/worksenabled"/>
+        <SwitchPreference android:summaryOn="@string/vehiclenovisibleenabled" android:key="vehicle_no_visible_pref" android:title="@string/vehiclenovisible" android:summaryOff="@string/vehiclenovisibledisabled"/>
+           
+    </PreferenceCategory>
+        <PreferenceCategory
+        android:title="@string/mapsviewchange"
+        android:key="@+id/mapview" >
+	<ListPreference
+         android:title="@string/changeview"                        
+         android:key="listPref"
+         android:entries="@array/mapasvalues"
+         android:entryValues="@array/mapasvalues" />     
+   </PreferenceCategory>
+</PreferenceScreen>

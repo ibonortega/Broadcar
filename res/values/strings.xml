@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Broadcar</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_settings_description">Select the alerts you want to show on the map.</string>
+    
+    <string name="bt">Bluetooth</string>
+    <string name="gps">Gps</string>
+    
+    
+      <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">not connected</string>
+    
+    
+    <string name="heavytraffic">Heavy traffic</string>
+    <string name="works">Works on road</string>
+    <string name="lowvisibility">Low visibility</string>
+    	<string name="snow">Snow</string>
+   		<string name="heavyrain">Heavy rain</string>
+  		<string name="fog">Fog</string> 		
+    <string name="roadstate">Road state</string>
+	    <string name="ice">Ice on road</string>
+	    <string name="oil">Oil on road</string>
+	    <string name="mud">Mud on road</string>
+    <string name="crashes">Crashes</string>
+    
+    <string name="silence">Silence</string>
+    
+    <string name="back">Back to map</string>
+    <string name="Alerts">alerts</string>
+    
+    <string name="heavytrafficdisabled">Heavy traffic alerts are disabled.</string>
+    <string name="heavytrafficenabled">Heavy traffic alerts are enabled.</string>
+    
+    <string name="worksdisabled">Heavy traffic alerts are disabled.</string>
+    <string name="worksenabled">Heavy traffic alerts are enabled.</string>
+    
+    <string name="lowvisibilityenabled">Low visibility alerts are enabled.</string>
+    <string name="lowbilsibilitydisabled">Low visibility alerts are disabled.</string>
+    
+     <string name="roadstateenabled">Road state alerts are enabled.</string>
+    <string name="roadstatedisabled">Road state alerts are disabled.</string>
+    
+    <string name="crashesenabled">Crashes alerts are enabled.</string>
+    <string name="crashesdisabled">Crashes alerts are disabled.</string>
+    
+    
+    <string name="silencesummary">Set all alerts off/on.</string>
+    <string name="gpson">The GPS service is ON.</string>
+    <string name="gpsoff">The GPS service is OFF.</string>
+    <string name="bton">Bluetooth service is ON.</string>
+    <string name="btoff">Bluetooth service is OFF.</string>
+    <string name="connectionsettings">Conecction</string>
+    <string name="startBt">Show Bluetooth settings</string>
+    <string name="startGps">Show geolocation settings</string>
+    <string name="vehiclenovisible">Vehicle no visible</string>
+    <string name="vehiclenovisibleenabled">Vehicle no visible alerts enabled</string>
+    <string name="vehiclenovisibledisabled">Vehicle no visible alerts disabled</string>
+    <string name="normalmapview">Normal</string>
+    <string name="hybridmapview">Hybrid</string>
+    <string name="satellitemapview">Satellite</string>
+    <string name="terrainmapview">Terrain</string>
+    <string name="mapsviewchange">Change google maps view</string>
+    <string name="changeview">Change view</string>
+    
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    
+
+</resources>
